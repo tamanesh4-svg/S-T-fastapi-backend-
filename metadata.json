@@ -1,0 +1,30 @@
+{
+    "target": "Total_Marks_Out_Of_100",
+    "models": {
+        "model_ca1": {
+            "stage": "After CA1",
+            "features": [
+                "CA1",
+                "Attendance"
+            ]
+        },
+        "model_ca2": {
+            "stage": "After CA2",
+            "features": [
+                "CA1",
+                "CA2",
+                "Attendance"
+            ]
+        },
+        "model_ca3": {
+            "stage": "After CA3",
+            "features": [
+                "CA1",
+                "CA2",
+                "CA3",
+                "Attendance"
+            ]
+        }
+    },
+    "sklearn_version": "1.6.1"
+}
